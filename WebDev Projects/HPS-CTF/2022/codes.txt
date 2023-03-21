@@ -1,0 +1,8 @@
+may the force be not with you
+
+Machine Type: Kriegsmarine 3 rotors
+Walzenlage: I,II,III
+Umkehrwalze: C
+Grundstellung: A,B,C
+Ringstellung: A,A,B
+Steckerverbindungen: A-B, C-D

@@ -1,0 +1,9 @@
+div {
+    border: 5px solid black;
+    padding: 2vw;
+    margin: 2vw;
+}
+
+#blur3:hover {
+    filter: blur(0px) !important;
+}

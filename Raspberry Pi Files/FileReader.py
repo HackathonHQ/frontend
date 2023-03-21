@@ -1,0 +1,6 @@
+file = open("D:\\file.txt","r")
+content = file.read()
+print('The content of the file is: ')
+print(content)
+input('\nPress ENTER to exit')
+file.close()

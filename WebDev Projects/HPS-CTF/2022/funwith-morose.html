@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPS-CTF</title>
+</head>
+
+<style>
+    html {
+        padding: 2%;
+        box-sizing: border-box;
+        font-size: 16px;
+        overflow-x: hidden;
+        color: wheat;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        background: #091436;
+    }
+
+    a{
+        color: wheat;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        background: #091436;
+        text-decoration: none;
+    }
+
+    h2 {
+        font-weight: normal;
+    }
+
+    div {
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 100%; */
+    }
+</style>
+
+<body>
+    <h2>
+        <span> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Dope </a> </span> or <span> <a href="https://scontent.fhyd15-1.fna.fbcdn.net/v/t1.18169-9/644391_525835137462107_941686477_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=E8B0SiOwYCYAX9jCu8n&_nc_ht=scontent.fhyd15-1.fna&oh=00_AT85G55UcO_ogi1WFct2Sg3ftUFOAew_A1Z17jjFH0e_0A&oe=63706406"> Nope? </a> </span>
+    </h2>
+    <span>This Website Unlocks in only</span>
+    <span id="demo"></span>
+</body>
+<script>
+    console.log("i like Alfajores · Benne Wafers · Bizcochitos · Chocolate Chocolate Chip · Flourless Fudge · Gaulettes");
+    console.log("next flag is geo-tag with a double g but not where you think, or is it?");
+    // I turn 17 on the following:
+    Date.now()
+    var countDownDate = new Date("Jan 26, 2023 06:00:00").getTime();
+
+    var x = setInterval(function () {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = 0;
+        var hours = 1;
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("demo").innerHTML =  hours + "h "
+            + minutes + "m " + seconds + "s ";
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+    document.cookie="base64=cmVjdXJzaW9uIGVoPwpkZWNvZGUgYWdhaW4KYW5WemRDQmhibTkwYUdWeUlHOXVaVG9nQ2dwaVJ6bHpURU5DZG1KdFZXZGlWemw1V2xSdlowTm5jR2hTTVZvMVYyeE9RMDVYU1hwV1YyUmhUV3BuTWxOVlJuWlRNa1pKVldwQ2FsTkZNREpVU0dzMVlUSk9kR0pFU21GVmVsWjFXV3BKTldKdFNraFdXRlphVFdwc01GUkVTbUZqUjBwSVZsaGFZVkY2YURSV01uYzFWMVpTZEZkck9XcGxiRnBLVkZkMGExSnRUbkphUjJoTlZqTlNSVlV5TldGVU1WcDFWR3BPWVZkSGFGQlZNR2hMVGtaTmVVOUlXbXRpVjNoeldraHZOVTFYVFhwUlZHeHFUVzFvYjFreU1YTmtWbkF6VUZRd1BRPT0="
+</script>
+
+</html>

@@ -1,0 +1,8 @@
+ctf 2022:
+
+brainf*ck & whitespace
+leet code & pikalang (pikachu encoding)
+steganography
+java code reversing
+--
+5 pictures (by praseeth)

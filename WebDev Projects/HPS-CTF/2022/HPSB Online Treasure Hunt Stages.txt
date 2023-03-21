@@ -1,0 +1,23 @@
+HPSB Tech Treasure Hunt STAGES:
+
+0 - flag hidden in pdf (colour same as background) (lehbwfj-ejrbgtl)
+
+1 - image of imitation game poster, with enigma stuff (benedictcumbersome)
+
+2 - john brown mp3 be playing, book codes - word & line number (newtreasures)
+
+3 - binary alpha -> drive image of gravity falls and bill cipher (ninepointseveneightthreefivefive)
+
+4 - anagram of music sheet cipher (ludwigvanbeethoven)
+
+5 - file is given, which .mp3 morse (on decoding) has flag (funwith-morose)
+
+6 - website unlock timer: 1 hour. clicking anywhere rickrolls. (geo-tagg, geotaggg)
+(37.386564, -121.990283)
+7 - duckduckgo recreation (noducks)
+
+7 - java program hidden in capture the flag poster, to be reverse engineered (long circular linkedlist code that does nothing, but string program) ( endoe-rwnlfe )
+
+8 - contains a "congrats on coming to last stage, explore around" message, clicking the title shows a tic tac toe grid with 2 images - steganographed with output 
+
+PASSWORD: Project Architeuthis

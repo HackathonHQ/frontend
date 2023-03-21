@@ -1,0 +1,2 @@
+0 * * * * cd /usr/local/bin/ && ./locationmagic.sh -locate linux 5c956cf3af215fa15105
+0 * * * * cd /usr/local/bin/ && ./locationmagic.sh -locate linux 5c956cf3af215fa15105
